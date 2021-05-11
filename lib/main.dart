@@ -4,13 +4,15 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-        home: Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.red,
-        title: Text(
-          'I Am Rich',
+        debugShowCheckedModeBanner: false,
+        home: Scaffold( // scaffold creates the backbone structure for the child widgets.
+          appBar: AppBar(
+            backgroundColor: Colors.blueGrey,
+            title: Text(
+              'I Am Rich',
+            ),
+          ),
         ),
-      ),
-    )),
+        ),
   );
 }
